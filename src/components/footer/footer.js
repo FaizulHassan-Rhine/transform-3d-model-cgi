@@ -11,25 +11,25 @@ const Footer = () => {
                             <p className="w-40 p-1 border-b-2 border-white text-sm mb-4">
                                 All-in-one photo editor for easy editing and better design.
                             </p>
-                            <div className="flex text-[#003333] justify-center gap-3 mb-2">
+                            <div className="flex -ml-4 text-[#003333] justify-center gap-3 mb-2">
                                 <a className="link cursor-pointer hover:text-blue-600 transition duration-300  link-hover">
-                                    <FaFacebookSquare />
+                                    <FaFacebookSquare className="h-5 w-5" />
                                 </a>
                                 <a className="link cursor-pointer hover:text-red-500 transition duration-300 link-hover">
-                                    <FaYoutube />
+                                    <FaYoutube className="h-5 w-5" />
                                 </a>
                                 <a className="link cursor-pointer hover:text-blue-600 transition duration-300 link-hover">
-                                    <FaLinkedin />
+                                    <FaLinkedin className="h-5 w-5" />
                                 </a>
                                 <a className="link cursor-pointer hover:text-blue-400 transition duration-300 link-hover">
-                                    <FaTwitter />
+                                    <FaTwitter className="h-5 w-5" />
                                 </a>
                                 <a className="link cursor-pointer hover:text-pink-500 transition duration-300 link-hover">
-                                    <FaInstagram />
+                                    <FaInstagram className="h-5 w-5" />
                                 </a>
                             </div>
 
-                            <button className="bg-white px-8 py-2 flex justify-center items-center gap-2 rounded-3xl text-xs">Language <i class="fa-solid pb-1 fa-sort-down"></i></button>
+
                         </div>
 
                         <div className="flex flex-col lg:items-start md:-ml-16 md:items-start text-start gap-1">
