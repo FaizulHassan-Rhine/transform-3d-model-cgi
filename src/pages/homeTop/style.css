@@ -1,0 +1,39 @@
+
+
+
+.ctrl, .ctrl_v{
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 1px 2px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.ctrl {
+  margin-left: 5px;
+}
+
+@keyframes bgAnim {
+    0% {background-color: #ecf0f1;}
+    10% {background-color: #ecf0f1;}
+    20% {background-color: #96a6a6;}
+    30% {background-color: #96a6a6;}
+    40% {background-color: #b8b4c7;}
+    50% {background-color: #b8b4c7;}
+    60% {background-color: #c7eafd;}
+    70% {background-color: #c7eafd;}
+    80% {background-color: #f4e7d3;}
+    90% {background-color: #f4e7d3;}
+    100% {background-color: #ecf0f1;}
+  }
+  
+  /* The element to apply the animation to
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  } */
+.slideBg {
+    animation: 20s bgAnim infinite;
+}
