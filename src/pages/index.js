@@ -6,11 +6,9 @@ import GetUpdates from './getupdates';
 const Home = () => {
   return (
     <div>
-
       <HomeTopPart />
       <Pricing />
       <GetUpdates />
-
     </div>
   );
 };
@@ -19,8 +17,6 @@ export default Home;
 
 Home.getLayout = function getLayout(page) {
   return (
-
     <Layout>{page}</Layout>
-
   )
 }

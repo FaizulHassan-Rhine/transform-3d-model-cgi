@@ -1,9 +1,8 @@
 // import '';
 import Image from 'next/image'
 import car from '../assets/images/car.gif'
+
 const HomeTopPart = () => {
-
-
     return (
         <div id="homeTopPart" className="flex items-center pt-0 xl:min-h-screen  md:pt-5 pb-16 md:pb-24 2xl:pb-0 2xl:pt-0">
             <div className="container mx-auto relative">
@@ -40,10 +39,7 @@ const HomeTopPart = () => {
 
                                         <button onClick={() => document.getElementById('upload').click()} className="bg-cyan-600 w-full hover:bg-green-500 transition-all py-[14px] px-[20px] text-white font-extrabold rounded-[48px] text-xl">Upload Images</button>
                                     </div>
-
-
                                 </div>
-
                             </div>
                         </div>
                     </div>

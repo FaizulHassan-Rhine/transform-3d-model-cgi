@@ -1,9 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { decrement, increment, incrementByValue } from "../redux/reducers/countSlice"
 
-
-
-
 function App() {
 
     const { count } = useSelector((state) => state.counter)
