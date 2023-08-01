@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <div>
                 <div id="footer" className="">
-                    <footer className="footer container pt-24 pb-10 mx-auto lg:justify-items-center justify-items-center  text-[#003333] gap-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+                    <footer className="footer container  pt-24 pb-10 mx-auto lg:justify-items-center justify-items-center  text-[#003333] gap-4 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                         <div className="text-left flex flex-col justify-center">
 
                             <p className="w-40 p-1 border-b-2 border-white text-sm mb-4">

@@ -1,18 +1,15 @@
-import React from 'react';
-import Navbar2 from '../components/navbar/navbar';
-import HomeTopPart from './homeTop/hometop';
-import Pricing from './pricing/pricing';
-import GetUpdates from './getUpdates/getupdates';
-import Footer from '../components/footer/footer';
 import Layout from '@/components/layout';
+import HomeTopPart from './hometop';
+import Pricing from './pricing';
+import GetUpdates from './getupdates';
 
 const Home = () => {
   return (
     <div>
 
-      <HomeTopPart></HomeTopPart>
-      <Pricing></Pricing>
-      <GetUpdates></GetUpdates>
+      <HomeTopPart />
+      <Pricing />
+      <GetUpdates />
 
     </div>
   );
