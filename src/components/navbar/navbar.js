@@ -1,28 +1,16 @@
 import React, { useState } from "react";
-
-// import logo from '../../Images/logo.jpg'
-// import { Link } from "react-router-dom";
-// import { HiShoppingCart } from "react-icons/hi";
-// import { HashLink } from 'react-router-hash-link';
-// import "./Navbar.css"
 import Link from 'next/link'
-
 
 const Navbar2 = () => {
 
     const [navbar, setNavbar] = useState(false);
-
-
-
     const [activeLink, setActiveLink] = useState("");
 
     function handleLinkClick(link) {
         setActiveLink(link);
     }
-
-
     return (
-        <div className="w-full bg-white shadow-sm  sticky top-0 z-[999]">
+        <div className="w-full bg-white shadow-lg  sticky top-0 z-[999]">
             <div className="container mx-auto">
 
                 <nav className="w-full bg-white ">
@@ -103,6 +91,21 @@ const Navbar2 = () => {
                                         </Link>
 
                                     </li>
+                                    <li
+
+                                        className=" text-black font-semibold "
+                                    >
+                                        <Link
+
+                                            href='/imageProcess'
+                                            onClick={() => handleLinkClick("image")}
+                                            className={` cursor-pointer hover:text-orange-400 ${activeLink === "image" ? "text-orange-400" : ""
+                                                }`}
+                                        >
+                                            3D Model
+                                        </Link>
+
+                                    </li>
 
                                     <li className="text-black font-semibold">
                                         <Link smooth
@@ -114,13 +117,7 @@ const Navbar2 = () => {
                                             About Us
                                         </Link>
                                     </li>
-
-
-
                                 </ul>
-
-
-
 
                                 <div className="mt-3 flex flex-col justify-center  items-center space-y-2 lg:hidden ">
                                     {/* <button
@@ -141,8 +138,6 @@ const Navbar2 = () => {
 
                             </div>
                         </div>
-
-
 
                         <div className="hidden  space-x-2 lg:block ">
 
@@ -168,11 +163,6 @@ const Navbar2 = () => {
 
                     </div>
                 </nav>
-
-
-
-
-
             </div>
         </div>
 
