@@ -107,7 +107,6 @@ const imageProcess = () => {
                 <button className="bg-cyan-500 text-white text-xl font-bold rounded-md px-4 py-2">Processing</button>
             </div>
 
-
             <div className="w-full flex justify-center mb-40">
                 <div className="border border-slate-200 h-[450px]  w-[700px] shadow-xl rounded-md">
 

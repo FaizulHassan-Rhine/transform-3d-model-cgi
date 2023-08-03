@@ -12,7 +12,6 @@ const Navbar2 = () => {
     return (
         <div className="w-full bg-white shadow-lg  sticky top-0 z-[999]">
             <div className="container mx-auto">
-
                 <nav className="w-full bg-white ">
                     <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-4">
                         <div>
@@ -64,12 +63,12 @@ const Navbar2 = () => {
                                 className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
                                     }`}
                             >
-                                <ul className="flex flex-col text-lg py-4  items-center justify-center space-y-8 lg:flex-row  lg:space-x-6 lg:space-y-0">
+                                <ul className="flex flex-col text-base py-4  items-center justify-center space-y-8 lg:flex-row  lg:space-x-6 lg:space-y-0">
                                     <li className="text-black font-semibold">
                                         <Link smooth
                                             href='/'
                                             onClick={() => handleLinkClick("homee")}
-                                            className={` cursor-pointer hover:text-orange-400 ${activeLink === "homee" ? "text-orange-400" : ""
+                                            className={` cursor-pointer hover:bg-cyan-600 px-4 py-1 rounded-md hover:text-white ${activeLink === "homee" ? "text-cyan-500" : ""
                                                 }`}
                                         >
                                             Home
@@ -77,41 +76,33 @@ const Navbar2 = () => {
                                     </li>
 
                                     <li
-
-                                        className=" text-black font-semibold "
-                                    >
+                                        className=" text-black font-semibold ">
                                         <Link
-
                                             href='/#price'
                                             onClick={() => handleLinkClick("contact")}
-                                            className={` cursor-pointer hover:text-orange-400 ${activeLink === "contact" ? "text-orange-400" : ""
+                                            className={` cursor-pointer hover:bg-cyan-600 px-4 py-1 rounded-md hover:text-white ${activeLink === "contact" ? "text-cyan-500" : ""
                                                 }`}
                                         >
                                             Pricing
                                         </Link>
-
                                     </li>
                                     <li
-
                                         className=" text-black font-semibold "
                                     >
                                         <Link
-
                                             href='/imageProcess'
                                             onClick={() => handleLinkClick("image")}
-                                            className={` cursor-pointer hover:text-orange-400 ${activeLink === "image" ? "text-orange-400" : ""
+                                            className={` cursor-pointer hover:bg-cyan-600 px-4 py-1 rounded-md hover:text-white ${activeLink === "image" ? "text-cyan-500" : ""
                                                 }`}
                                         >
                                             3D Model
                                         </Link>
-
                                     </li>
-
                                     <li className="text-black font-semibold">
                                         <Link smooth
                                             href='/#getupdates'
                                             onClick={() => handleLinkClick("about")}
-                                            className={` cursor-pointer  hover:text-orange-400 ${activeLink === "about" ? "text-orange-400" : ""
+                                            className={` cursor-pointer  hover:bg-cyan-600 px-4 py-1 rounded-md hover:text-white ${activeLink === "about" ? "text-cyan-500" : ""
                                                 }`}
                                         >
                                             About Us
@@ -135,12 +126,10 @@ const Navbar2 = () => {
                                         </button>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
 
                         <div className="hidden  space-x-2 lg:block ">
-
                             <div className="flex justify-center items-center gap-2">
                                 {/* <button
                                     id="singInButton"
@@ -158,9 +147,7 @@ const Navbar2 = () => {
                                     </a>
                                 </button>
                             </div>
-
                         </div>
-
                     </div>
                 </nav>
             </div>
