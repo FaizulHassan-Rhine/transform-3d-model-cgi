@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { decrement, increment, incrementByValue } from "../redux/reducers/countSlice"
+import Head from "next/head"
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
 
     return (
         <div>
+            <Head>
+                <title>3D Model - Redux Test</title>
+            </Head>
             <div className="flex gap-6 justify-center mt-5">
                 <button onClick={() => dispatch(increment())} className="border-2 border-green-500 rounded-md px-2 py-3">
                     Increment
