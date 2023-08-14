@@ -1,4 +1,3 @@
-// import '';
 import Image from 'next/image'
 import car from '../assets/images/car.gif'
 

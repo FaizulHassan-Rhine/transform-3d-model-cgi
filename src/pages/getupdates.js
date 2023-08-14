@@ -11,10 +11,8 @@ const GetUpdates = () => {
                         <input
                             type="text"
                             className="border-none pl-2 focus:outline-none text-base font-semibold w-48"
-
                             placeholder="Enter your mail" />
                         <button className="rounded-3xl text-white py-1 font-semibold px-4 text-base bg-[#003333]">Subscribe</button>
-
                     </div>
                 </div>
             </div>

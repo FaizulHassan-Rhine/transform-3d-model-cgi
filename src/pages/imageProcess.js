@@ -13,7 +13,7 @@ import Layout from "@/components/layout";
 import Head from "next/head";
 
 
-const imageProcess = () => {
+const ImageProcess = () => {
     return (
         <div className="container pt-10 mx-auto">
             <Head>
@@ -123,10 +123,10 @@ const imageProcess = () => {
     );
 };
 
-export default imageProcess;
+export default ImageProcess;
 
 
-imageProcess.getLayout = function getLayout(page) {
+ImageProcess.getLayout = function getLayout(page) {
     return (
         <Layout>{page}</Layout>
     )
